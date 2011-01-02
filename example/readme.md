@@ -1,13 +1,15 @@
-This tiny library ensures that a button input only triggers an event once.
+This very basic example of the Tap library uses:
 
-To install (on OSX):
+* 1x Push Button
+* 1x 10k&#8486; resistor
+* 1x Arduino Uno
+* 1x Small Breadboard
 
-1. `cd` to your default Arduino directory
-2. Run this in the directory `git clone git://github.com/d2kagw/arduino-tap-library.git Tap`
-3. Open (or relaunch) the Arduino IDE
-4. Select `Sketch > Import Library... > Tap`
-5. Profit.
+I've included the [Fritzing Sketch](https://github.com/d2kagw/arduino-tap-library/raw/master/example/sketch.fz), but the schematic is real simple:
+![see, really simple](https://github.com/d2kagw/arduino-tap-library/raw/master/example/fritzing.png)
 
-Examples are in the `examples` directory.
+Simply run the [example.pde](https://github.com/d2kagw/arduino-tap-library/raw/master/example/example.pde) file on your Arduino.
 
-Enjoy.
+When you press the button, you should only see it print `Down` once in your Serial Monitor per-press.
+
+Easy peasy.
