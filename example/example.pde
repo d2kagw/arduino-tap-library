@@ -1,6 +1,6 @@
 #include <Tap.h>
 
-int button = 5;
+int button = 2;
 
 void setup () {
   Serial.begin(9600);
