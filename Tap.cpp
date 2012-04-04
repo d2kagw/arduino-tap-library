@@ -1,4 +1,4 @@
-#import "WProgram.h"
+#import "Arduino.h"
 #import "Tap.h"
 
 Tap::Tap(int pin) {
