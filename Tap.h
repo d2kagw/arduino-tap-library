@@ -1,7 +1,7 @@
 #ifndef _hTap
 #define _hTap
 
-  #import "WProgram.h"
+  #import "Arduino.h"
 
   class Tap
   {
