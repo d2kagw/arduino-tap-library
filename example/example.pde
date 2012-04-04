@@ -1,12 +1,13 @@
 #include <Tap.h>
 
 int button = 2;
+  
+Tap tapper(button);
 
 void setup () {
   Serial.begin(9600);
   
   // setup the Button Tap library
-  Tap tapper(button);
 };
 
 void loop() {
